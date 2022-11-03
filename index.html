@@ -1,1 +1,130 @@
-deta upload
+<html lang="ja">
+<script>
+window.addEventListener("scroll", function () {
+  // ヘッダーを変数の中に格納する
+  const header = document.querySelector("header");
+  var a = 51
+  a -= Math.floor(window.scrollY)/1.97
+  a = Math.floor(a)
+  if (a>10){
+    MT.style='padding: '+ a + 'px 0px;';
+  }else{
+    MT.style='padding: 10px 0px;z-index: 10;';
+  }
+});
+</script>
+<div style="height:190px; background-color:none;"></div>
+<head>
+  <meta charset="utf-8">
+  <title>Let's Programing</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&family=Stoke&family=Yellowtail&family=Geo&family=Oswald&family=Lobster&family=Cookie&family=Chewy&family=Limelight&family=Sacramento&family=Plaster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ヘッダー -->
+<header id="MT" class="MT">
+  <center>Let's Programing<center>
+</header>
+
+
+<!-- お店紹介 -->
+<section>
+  <h2>プログラミングとは</h2>
+
+  <!-- レイアウトの箱-->
+  <div class="layout">
+
+    <!-- １つ目の箱   -->
+    <div>
+      <img src="img/cro.jpg" alt="クロワッサン">
+    </div>
+
+    <!-- ２つ目の箱   -->
+    <div>
+      <p class="shop-text">
+        「プログラミング」とは「プログラム」を作る作業のことです。と言われても、「じゃあ、プログラムって何？」と疑問に思ってしまいますよね。プログラムとは、簡単にいうと「コンピュータにさせる処理を、順番に書き出したもの」です。コンピュータは自分で考えることができません。たとえば、一度も泳いだことのない人に「泳いで！」と言うだけではダメですよね。「まずは右手を前に出して、うしろに向かって水を掻いたら、次は左手を……」と教えてあげなければいけません。「泳ぐ」という目的を達成するために、一つ一つの動きを順番に説明する必要があります。これをコンピュータ相手に行うのが「プログラム」です。
+      </p>
+    </div>
+
+  </div>
+
+</section>
+<section>
+  <h2>プログラミングの種類</h2>
+
+  <!-- レイアウトの箱-->
+  <div class="layout">
+
+    <!-- １つ目の箱   -->
+    
+
+    <!-- ２つ目の箱   -->
+    <div>
+      <p class="shop-text">
+        プログラミング言語の種類はだいたい250以上といろいろなプログラミング言語があり、もちろん使用用途がwebであったりアプリ開発であったりします。
+        今回はその中でも全体的に見て人気な5種類を紹介します。
+        
+      </p>
+    </div>
+    
+    <div>
+      <img src="img/cro.jpg" alt="クロワッサン">
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
+</section>
+
+<!-- メニュー -->
+<section class="menu">
+  <h2 class="menu-title"></h2>
+
+  <!-- メニュー表 -->
+  <table>
+    <tr>
+      <th>言語名</th>
+      <th>言語説明</th>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>AI開発や科学技術計算などに用いられ、世界的に人気が高まっています。その他にもWebスクレイピングや業務効率化などで用いられるのも魅力。</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>Web制作においては、HTML/CSSとセットでおさえるべき言語、用途の幅が広い言語として確立している。</td>
+    </tr>
+    <tr>
+      <td>Ruby</td>
+      <td>現在海外での採用事例は、ほかの人気プログラミング言語と比較すると減少しています。しかし日本ではまだまだ求人数は多く、Web系企業を中心に人気。スタートアップ企業での採用事例も多い。</td>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td>日本における求人数で長年トップをキープする人気コンパイラ言語。</td>
+    </tr>
+    <tr>
+      <td>Swift</td>
+      <td>Apple製品向けのアプリ開発を中心とした、モダンなプログラミング言語。</td>
+    </tr>
+  </table>
+
+</section>
+
+
+
+<!-- フッタ ー-->
+<footer>
+  &copy; Let's Programing
+
+</footer>
+
+
+</body>
+
+</html>
